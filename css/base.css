@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header_container{
+    max-width: 1062px;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.home_container{
+    max-width: 886px;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.container{
+    max-width: 712px;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    padding: 0 15px;
+}
+
+:root{
+    --pink: #FF6464;
+    --blue: #00A8CC;
+    --dark: #21243D;
+    --gray: #8695A4;
+    --b: #000000;
+    --w: #ffffff;
+    --h: 'Heebo', sans-serif;
+}
