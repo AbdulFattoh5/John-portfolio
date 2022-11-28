@@ -16,7 +16,7 @@
     gap: 33px;
 }
 
-.link {
+.menu_link {
     font-family: var(--h);
     font-size: 20px;
     font-weight: 600;
@@ -25,13 +25,12 @@
     color: var(--b);
     transition: 0.3s;
 }
+.menu_link:hover{
+    color: var(--pink);
+}
 
 .link_icon {
     display: none;
-}
-
-.link:hover {
-    color: var(--pink);
 }
 
 .header_burger-btn {
@@ -106,14 +105,8 @@
         text-align: left;
     }
 
-    .menu_link:hover {
-        color: var(--pink);
-    }
-
     .link_icon {
         display: block;
-        font-size: 20px;
-        color: var(--b);
     }
 
     .link_icon1 {
