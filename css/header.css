@@ -25,7 +25,8 @@
     color: var(--b);
     transition: 0.3s;
 }
-.menu_link:hover{
+
+.menu_link:hover {
     color: var(--pink);
 }
 
@@ -41,7 +42,8 @@
 
     .header_burger-btn {
         display: block;
-        position: relative;
+        position: fixed;
+        top: 20px;
         height: 40px;
         width: 40px;
         border: none;
