@@ -124,6 +124,12 @@
     }
 }
 
+@media screen and (max-width:450px){
+    .header{
+        margin-bottom: 33px;
+    }
+}
+
 @media screen and (max-height:350px) {
     .menu {
         gap: 15px;
