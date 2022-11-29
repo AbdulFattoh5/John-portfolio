@@ -130,6 +130,12 @@
     }
 }
 
+@media screen and (max-width:400px){
+    .menu {
+        width: 37%;
+    }
+}
+
 @media screen and (max-height:350px) {
     .menu {
         gap: 15px;
