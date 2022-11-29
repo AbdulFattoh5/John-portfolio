@@ -105,9 +105,23 @@
     }
 }
 
+@media screen and (max-width:660px) {
+    .few_work_img5 {
+        object-fit: cover;
+        width: 70%;
+        height: 70%;
+    }
+}
+
 @media screen and (max-width:450px) {
     .headerr {
         margin-bottom: 32px;
+    }
+
+    .few_work_img5 {
+        object-fit: cover;
+        width:100%;
+        height: 100%;
     }
 
     .work_h {
