@@ -1,0 +1,126 @@
+.headerr {
+    padding: 27px 0;
+    margin-bottom: 78px;
+}
+
+.works {
+    padding-bottom: 27px;
+}
+
+.few_work_img5 {
+    width: 246px;
+    height: 180px;
+}
+
+.works_h {
+    font-family: var(--h);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: left;
+    color: var(--dark);
+    margin-bottom: 25px;
+}
+
+.work_h {
+    font-family: var(--h);
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+    color: var(--dark);
+    max-width: 506px;
+    margin: 78px 0 30px;
+}
+
+.work_data {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 17px;
+    margin-bottom: 23px;
+}
+
+.work_date {
+    font-family: var(--h);
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 0px;
+    padding: 3px 0 3px;
+    text-align: center;
+    color: var(--w);
+    background: var(--pink);
+    width: 62px;
+    height: 25px;
+    border-radius: 16px;
+}
+
+.work_data-p {
+    font-family: var(--h);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+    color: var(--dark);
+}
+
+.heading1 {
+    margin-bottom: 50px;
+}
+
+.heading_h {
+    font-family: var(--h);
+    font-size: 30px;
+    font-weight: 550;
+    line-height: 60px;
+    text-align: left;
+    color: var(--dark);
+    margin-bottom: 25px;
+}
+
+.heading_p {
+    font-family: var(--h);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: var(--b);
+    margin-bottom: 30px;
+}
+
+.heading_images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 27px;
+}
+
+@media screen and (max-width:720px) {
+    .work_img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .headerr {
+        margin-bottom: 32px;
+    }
+
+    .work_h {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .work_data-p {
+        font-size: 18px;
+        line-height: 26.44px;
+    }
+
+    .heading_h {
+        font-size: 26px;
+    }
+}
